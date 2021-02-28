@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<leave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="leave.xsd ">
+	
+	<leaveType>emergency</leaveType>
+	<daysRequested>13</daysRequested>
+	<startDate>2021-03-01</startDate>
+	<endDate>2021-03-14</endDate>
+	<address>Budapest</address>
+	
+</leave>

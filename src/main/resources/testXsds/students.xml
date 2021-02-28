@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:studentsList
+	xmlns:tns="http://www.example.org/students"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/students students.xsd ">
+
+	<tns:student Sid="idvalue0">
+		<tns:employeeId>5</tns:employeeId>
+		<tns:firstName>spider</tns:firstName>
+		<tns:lastName>man</tns:lastName>
+		<tns:email>man@spider.com</tns:email>
+	</tns:student>
+
+	<tns:student Sid="idvalue1">
+		<tns:employeeId>6</tns:employeeId>
+		<tns:firstName>aqua</tns:firstName>
+		<tns:lastName>man</tns:lastName>
+		<tns:email>man@aqua.com</tns:email>
+	</tns:student>
+
+	<tns:student Sid="idvalue2">
+		<tns:employeeId>7</tns:employeeId>
+		<tns:firstName>country</tns:firstName>
+		<tns:lastName>man</tns:lastName>
+		<tns:email>man@country.com</tns:email>
+	</tns:student>
+</tns:studentsList>

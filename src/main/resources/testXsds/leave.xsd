@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+	<element name="leave">
+		<complexType>
+			<sequence>
+				<element name="leaveType">
+					<simpleType>
+						<restriction base="string">
+							<enumeration value="sick"></enumeration>
+							<enumeration value="emergency"></enumeration>
+							<enumeration value="annual"></enumeration>
+						</restriction>
+					</simpleType>
+				</element>
+				<element name="daysRequested" type="int"></element>
+				<element name="startDate" type="date"></element>
+				<element name="endDate" type="date"></element>
+				<element name="address" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
